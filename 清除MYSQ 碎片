@@ -1,0 +1,5 @@
+MyISAM表：optimize table 表名
+
+InnoDB表：alter table 表名 engine=InnoDB
+
+注：清除碎片操作会暂时锁表，数据量越大，耗费的时间越长
